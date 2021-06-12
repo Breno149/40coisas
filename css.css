@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", sans-serif;
+    color:aliceblue;
+}
+
+h1, h2, h3, p{
+    margin: 10px;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 15px;
+}
+
+html{
+    background: #181818;
+}
+
+a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+}
+.conteudo{
+    max-width: 980px;
+    max-height: 3000px;
+    background: #212121;
+    margin: 25px auto;
+    border-radius: 10px;
+    display: flex, inline-table;
+    width: 50%;
+    padding: 10px;
+}
+
+.caixa{
+display: table;      
+}
+
+ul{
+    display: inline;
+    position: relative;
+    
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+}
